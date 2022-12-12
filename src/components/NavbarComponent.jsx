@@ -1,23 +1,27 @@
-import { Container, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavbarComponent = () => {
 	return (
-		<>
-			<Navbar
-				sticky='top'
-				bg='primary'
-				variant='dark'
-			>
-				<Container>
-					<Navbar.Brand
-						className='text-dark h1'
-						href='#home'
+		<nav>
+			<ul className='d-flex gap-5 list-unstyled bg-primary p-3'>
+				<li className='nav-item'>
+					<Link
+						className='text-decoration-none text-dark h5 fw-medium'
+						to='/reqres'
 					>
-						Contact Details
-					</Navbar.Brand>
-				</Container>
-			</Navbar>
-		</>
+						Reqres.in
+					</Link>
+				</li>
+				<li className='nav-item'>
+					<Link
+						className='text-decoration-none text-dark h5 fw-medium'
+						to='contacts'
+					>
+						RandomUserAPI
+					</Link>
+				</li>
+			</ul>
+		</nav>
 	);
 };
 

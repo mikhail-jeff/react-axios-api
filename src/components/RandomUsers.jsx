@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Col, Row } from 'react-bootstrap';
 import Contact from './Contact';
 
-const Contacts = () => {
+const RandomUsers = () => {
 	useEffect(() => {
 		getContacts();
 	}, []);
@@ -22,6 +22,7 @@ const Contacts = () => {
 	};
 	return (
 		<>
+			<h1 className='text-center'>Fetch API(Random User API)</h1>
 			<Row>
 				{loading &&
 					contacts.map((contact) => (
@@ -39,4 +40,4 @@ const Contacts = () => {
 	);
 };
 
-export default Contacts;
+export default RandomUsers;
