@@ -15,7 +15,7 @@ const NavbarComponent = () => {
 				<li className='nav-item'>
 					<Link
 						className='text-decoration-none text-dark h5 fw-medium'
-						to='contacts'
+						to='randomusers'
 					>
 						RandomUserAPI
 					</Link>

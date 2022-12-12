@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Reqres from './pages/Reqres';
-import RandomUsers from './components/RandomUsers';
+import RandomUsers from './pages/RandomUsers';
 
 function App() {
 	return (
@@ -16,7 +16,7 @@ function App() {
 						element={<Reqres />}
 					/>
 					<Route
-						path='/contacts'
+						path='/randomusers'
 						element={<RandomUsers />}
 					/>
 				</Routes>

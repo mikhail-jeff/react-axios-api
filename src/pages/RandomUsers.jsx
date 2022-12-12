@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Col, Row } from 'react-bootstrap';
-import Contact from './Contact';
+import Contact from '../components/Contact';
 
 const RandomUsers = () => {
 	useEffect(() => {
