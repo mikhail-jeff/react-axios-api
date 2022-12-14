@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Reqres from './pages/Reqres';
 import RandomUsers from './pages/RandomUsers';
 import RandomAPI from './pages/RandomAPI';
+import CustomHook from './pages/CustomHook';
 
 function App() {
 	return (
@@ -23,6 +24,10 @@ function App() {
 					<Route
 						path='/randomapi.com'
 						element={<RandomAPI />}
+					/>
+					<Route
+						path='/v2.jokeapi.dev'
+						element={<CustomHook />}
 					/>
 				</Routes>
 			</Container>

@@ -28,6 +28,14 @@ const NavbarComponent = () => {
 						RandomAPI.com
 					</Link>
 				</li>
+				<li className='nav-item'>
+					<Link
+						className='text-decoration-none text-dark h5 fw-medium'
+						to='/v2.jokeapi.dev'
+					>
+						CustomHookAPI
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);
