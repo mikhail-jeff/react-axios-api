@@ -20,6 +20,14 @@ const NavbarComponent = () => {
 						RandomUserAPI
 					</Link>
 				</li>
+				<li className='nav-item'>
+					<Link
+						className='text-decoration-none text-dark h5 fw-medium'
+						to='/randomapi.com'
+					>
+						RandomAPI.com
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);

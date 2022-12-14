@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Reqres from './pages/Reqres';
 import RandomUsers from './pages/RandomUsers';
+import RandomAPI from './pages/RandomAPI';
 
 function App() {
 	return (
@@ -18,6 +19,10 @@ function App() {
 					<Route
 						path='/randomusers'
 						element={<RandomUsers />}
+					/>
+					<Route
+						path='/randomapi.com'
+						element={<RandomAPI />}
 					/>
 				</Routes>
 			</Container>
