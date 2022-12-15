@@ -6,6 +6,7 @@ import Reqres from './pages/Reqres';
 import RandomUsers from './pages/RandomUsers';
 import RandomAPI from './pages/RandomAPI';
 import CustomHook from './pages/CustomHook';
+import RandomDog from './pages/RandomDog';
 
 function App() {
 	return (
@@ -28,6 +29,10 @@ function App() {
 					<Route
 						path='/v2.jokeapi.dev'
 						element={<CustomHook />}
+					/>
+					<Route
+						path='/dog.ceo'
+						element={<RandomDog />}
 					/>
 				</Routes>
 			</Container>

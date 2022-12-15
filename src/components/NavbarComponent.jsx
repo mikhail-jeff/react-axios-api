@@ -36,6 +36,14 @@ const NavbarComponent = () => {
 						CustomHookAPI
 					</Link>
 				</li>
+				<li className='nav-item'>
+					<Link
+						className='text-decoration-none text-dark h5 fw-medium'
+						to='/dog.ceo'
+					>
+						RandomDogAPI
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);
